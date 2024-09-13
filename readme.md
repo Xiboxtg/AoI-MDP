@@ -43,7 +43,7 @@ If AoI-MDP helps you in your academic research, you are encouraged to cite our p
 
 ## Overview
 
-<img src="markdown-img/readme.assets/1 (2)_00.jpg" style="zoom:100%;" />
+<img src="markdown-img/abstract.jpg" style="zoom:100%;" />
 
 This paper presents an Age of Information optimized Markov Decision Process (AoI-MDP) tailored for underwater tasks involving Autonomous Underwater Vehicles (AUVs). Recognizing the challenges posed by observation delays due to acoustic communication in the Internet of Underwater Things (IoUT), this study aims to enhance the information freshness, thereby improving decision-making efficiency in underwater environments.
 
