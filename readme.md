@@ -16,6 +16,26 @@ Torch version for the code is 2.2.2 with Python 3.8.19.
 
 ## Code Function Description
 
+The code function descriptions are listed as follows:
+
+```python
+ train_masac_2.py # file for training the framework
+```
+
+```python
+ env.py # file for environment settings
+```
+
+```python
+ dist_ang_estimate.py # file for statistical signal processing modeling
+```
+
+```python
+masac.py # file for SAC algorithm
+```
+
+## Running Experiments
+
 *****
 
 - To train the model:  
@@ -23,23 +43,7 @@ Torch version for the code is 2.2.2 with Python 3.8.19.
     python train_masac_2.py
     ```
 
-- Environment settings:  
-     ```python
-    python env.py
-    ```
-
-- Statistical signal processing modeling:  
-     ```python
-    python dist_ang_estimate.py
-    ```
-
-- SAC algorithm framework:  
-     ```python
-    python masac.py
-
-*****
-
-If AoI-MDP helps you in your academic research, you are encouraged to cite our paper. The title of our paper is "Enhancing Information Freshness: An AoI Optimized Markov Decision Process Dedicated in The Underwater Task". A link to our paper can be found on https://arxiv.org/abs/2409.02424.
+****
 
 ## Overview
 
@@ -50,6 +54,19 @@ This paper presents an Age of Information optimized Markov Decision Process (AoI
 The proposed AoI-MDP integrates observation delay into the state space and introduces a wait time in the action space. By leveraging Reinforcement Learning (RL) for training, the model achieves joint optimization of information freshness and decision-making processes. High-precision modeling is attained through Statistical Signal Processing (SSP), which represents observation delay as an underwater acoustic signal delay.
 
 Simulation results underscore the feasibility and effectiveness of the AoI-MDP approach. It demonstrates superior performance in minimizing AoI, optimizing sum data rate, and reducing energy consumption in a multi-AUV data collection task scenario. The contributions of this work include the novel formulation of underwater tasks as an MDP that incorporates AoI and observation delay, as well as the integration of RL to optimize these parameters.
+
+## Citation
+
+If you find our work useful, please kindly cite:
+
+```
+@article{ding2024aoimdp,
+      title={Enhancing Information Freshness: An AoI Optimized Markov Decision Process Dedicated In the Underwater Task}, 
+      author={Yimian Ding and Jingzehua Xu and Yiyuan Yang and Shuai Zhang},
+      journal={arXiv preprint arXiv:2024.02424},
+  	  year={2024}
+}
+```
 
 ## Copyright Notice
 
