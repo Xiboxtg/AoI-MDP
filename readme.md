@@ -55,19 +55,6 @@ The proposed AoI-MDP integrates observation delay into the state space and intro
 
 Simulation results underscore the feasibility and effectiveness of the AoI-MDP approach. It demonstrates superior performance in minimizing AoI, optimizing sum data rate, and reducing energy consumption in a multi-AUV data collection task scenario. The contributions of this work include the novel formulation of underwater tasks as an MDP that incorporates AoI and observation delay, as well as the integration of RL to optimize these parameters.
 
-## Citation
-
-If you find our work useful, please kindly cite:
-
-```
-@article{ding2024aoimdp,
-      title={Enhancing Information Freshness: An AoI Optimized Markov Decision Process Dedicated In the Underwater Task}, 
-      author={Yimian Ding and Jingzehua Xu and Yiyuan Yang and Shuai Zhang},
-      journal={arXiv preprint arXiv:2024.02424},
-  	  year={2024}
-}
-```
-
 ## Copyright Notice
 
 This code is available as free and open-source software for research purposes only. Unauthorized commercial use is strictly prohibited. If you utilize this code in your work, please provide proper attribution in your publication.
