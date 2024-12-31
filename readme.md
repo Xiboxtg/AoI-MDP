@@ -2,7 +2,7 @@
 
 This is the code of the AoI-MDP based SAC algorithm for multiple AUVs-assisted IoUT data collection task.
 
-## Version Information
+## Library Version Information
 
 The versions of the code usage library are listed below:
 
